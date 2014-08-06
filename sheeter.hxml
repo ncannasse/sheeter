@@ -1,0 +1,10 @@
+-cp src
+-swf sheeter.swf
+-swf-header 1024:768:60:FFFFFF
+--flash-strict
+-swf-version 11.4
+-main App
+-lib h3d
+-lib air3
+-cp air
+--macro allowPackage('sys')
